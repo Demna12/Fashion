@@ -1,0 +1,54 @@
+.container {
+    /* display: flex; */
+    margin: 30px auto;
+    /* padding: 30px; */
+    background-color: #f9dd55;
+    min-height: 968px;
+}
+
+.paydayContent {
+    display: flex;
+    column-gap: 24px;
+    padding-top: 128px;
+    /* padding-left: 120px; */
+}
+
+.paydayText {
+    display: flex;
+    max-width: 670px;
+}
+
+.paydayTitle {
+    font-weight: 900;
+    font-size: 112px;
+    line-height: 1.25;
+    margin-bottom: 128px;
+}
+
+.highlight {
+    position: relative;
+    display: inline-block;
+}
+
+.highlight span {
+    position: relative;
+}
+
+.highlight::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -3px;
+    bottom: 10px;
+    left: -20px;
+    right: -30px;
+    background-color: #fff;
+    transform: rotate(-2deg);
+}
+
+.paydayDescr {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.05em;
+}

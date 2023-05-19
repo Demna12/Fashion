@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Promo from './components/Promo/Promo';
+import Header from './components/header/Header';
+import Brands from './components/brands/Brands';
+import Arrivals from './components/arrivals/Arrivals';
+import Payday from './components/payday/Payday';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header />
+            <Promo />
+            <Brands />
+            <Arrivals/>
+            <Payday/>
+        </div>
+    );
 }
 
 export default App;
