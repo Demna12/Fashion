@@ -1,28 +1,23 @@
 .container {
-    /* display: flex; */
-    margin: 30px auto;
-    /* padding: 30px; */
+    margin-top: 30px;
     background-color: #f9dd55;
-    min-height: 968px;
 }
 
 .paydayContent {
     display: flex;
-    column-gap: 24px;
-    padding-top: 128px;
-    /* padding-left: 120px; */
 }
 
 .paydayText {
-    display: flex;
+    position: relative;
     max-width: 670px;
+    margin: 128px 203px 155px 63px;
+    position: relative;
 }
 
 .paydayTitle {
     font-weight: 900;
     font-size: 112px;
     line-height: 1.25;
-    margin-bottom: 128px;
 }
 
 .highlight {
@@ -47,8 +42,28 @@
 }
 
 .paydayDescr {
+    display: block;
     font-weight: 500;
     font-size: 36px;
     line-height: 48px;
     letter-spacing: -0.05em;
+    margin-top: 40px;
+}
+
+.descrBold {
+    display: block;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.paydayBtn {
+    padding: 18px 40px;
+    background: #000;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.5;
+    color: #f4f6f5;
+    position: absolute;
+    margin-top: 30px;
 }
