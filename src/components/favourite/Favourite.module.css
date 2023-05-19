@@ -1,0 +1,40 @@
+.faviurite {
+    margin-top: 100px;
+}
+
+.faviuriteHeader {
+    margin-bottom: 70px;
+}
+
+.favTitle {
+    display: inline-block;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 0.06em;
+    position: relative;
+}
+
+.favTitle::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    right: 30px;
+    bottom: -14px;
+    width: 160px;
+    height: 32px;
+    background-image: url('./../../images/icons/yellowdecor.svg');
+    background-repeat: no-repeat;
+    transform: rotate(-1deg);
+}
+
+.favouriteCards {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.container {
+    margin: 0 45px 0px 45px;
+    padding: 30px;
+}

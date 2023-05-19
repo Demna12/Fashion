@@ -2,7 +2,8 @@ import styles from './Card.module.css';
 import cat01Img from './../../images/images/01.jpg';
 import arrowImg from './../../images/icons/arrow.svg';
 
-const Card = ({ title, img }) => {
+const Card = ({title, img}) => {
+
     return (
         <div className={styles.card}>
             <a className={styles.cardLink} href="#!"></a>

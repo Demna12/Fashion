@@ -3,6 +3,7 @@ import Header from './components/header/Header';
 import Brands from './components/brands/Brands';
 import Arrivals from './components/arrivals/Arrivals';
 import Payday from './components/payday/Payday';
+import Favourite from './components/favourite/Favourite';
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             <Brands />
             <Arrivals/>
             <Payday/>
+            <Favourite/>
         </div>
     );
 }
