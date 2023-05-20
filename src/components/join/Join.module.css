@@ -1,0 +1,63 @@
+.container {
+    margin-top: 198px;
+    min-height: 623px;
+    background-color: #e5c643;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    margin-top: 141px;
+    position: absolute;
+    max-width: 1010px;
+}
+
+.joinDescr {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    color: #fffcf8;
+    letter-spacing: 0.03em;
+    margin-top: 37px;
+}
+
+.joinButtonIn {
+    margin-top: 49px;
+    width: 574px;
+    height: 87px;
+}
+
+.joinButtonIn input {
+    padding: 27px;
+    width: 574px;
+    height: 87px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #767676;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.03em;
+    position: absolute;
+}
+
+.joinButtonIn button {
+    border-radius: 8px;
+    border: none;
+    width: 161px;
+    height: 67px;
+    cursor: pointer;
+    background-color: #000;
+    transform: translateX(403px);
+    font-weight: 500;
+    font-size: 33px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+}

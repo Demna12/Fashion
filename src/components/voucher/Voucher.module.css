@@ -25,6 +25,7 @@
 }
 
 .voucherIcon {
+    cursor: pointer;
     display: flex;
     justify-content: flex-start;
     margin-top: 62px;

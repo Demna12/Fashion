@@ -5,6 +5,7 @@ import Arrivals from './components/arrivals/Arrivals';
 import Payday from './components/payday/Payday';
 import Favourite from './components/favourite/Favourite';
 import Voucher from './components/voucher/Voucher';
+import Join from './components/join/Join';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
             <Payday />
             <Favourite />
             <Voucher />
+            <Join/>
         </div>
     );
 }
