@@ -6,6 +6,7 @@ import Payday from './components/payday/Payday';
 import Favourite from './components/favourite/Favourite';
 import Voucher from './components/voucher/Voucher';
 import Join from './components/join/Join';
+import Footer from './components/footer/Footer';
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
             <Favourite />
             <Voucher />
             <Join/>
+            <Footer />
         </div>
     );
 }
