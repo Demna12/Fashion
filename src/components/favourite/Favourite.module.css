@@ -19,9 +19,9 @@
     content: '';
     position: absolute;
     z-index: -1;
-    right: 30px;
+    right: -10px;
     bottom: -14px;
-    width: 160px;
+    width: 206px;
     height: 32px;
     background-image: url('./../../images/icons/yellowdecor.svg');
     background-repeat: no-repeat;
